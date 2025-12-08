@@ -12,7 +12,7 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "nickNameBot": "　 　  ️^᪲᪲᪲　 　  ️",
+  "nickNameBot": "BoTx10👾",
   "prefix": "!",
   "adminOnly": {
     "enable": false,
@@ -20,18 +20,18 @@
   },
   "adminBot": [
     "100041288141165",
-    "",
-    ""
+    "100041288141165",
+    "100041288141165"
   ],
   "developers": [
     "100041288141165",
-    "",
-    ""
+    "100041288141165",
+    "100041288141165"
   ],
   "premium": [
     "100041288141165",
-    "",
-    ""
+    "100041288141165",
+    "100041288141165"
   ],
   "whiteListMode": {
     "enable": false,
