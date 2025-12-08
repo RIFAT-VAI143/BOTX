@@ -15,7 +15,7 @@
       <span>Original Creator</span>
     </td>
     <td align="center">
-      <a href="https://github.com/xnil6x-obito">
+      <a href="https://github.com/RIFAT-VAI143">
         <img src="https://avatars.githubusercontent.com/u/221610963?v=4" width="100px;" alt="XNIL6X"/>
         <br/>
         <sub><b>XNIL6X OBITO</b></sub>
