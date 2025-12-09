@@ -7,10 +7,10 @@ module.exports.config = {
     name: "bby",
     aliases: ["baby", "bbe", "babe"],
     version: "6.9.0",
-    author: "dipto",
+    author: "Rifat",
     countDown: 0,
     role: 0,
-    description: "better then all sim simi",
+    description: "better then all",
     category: "chat",
     guide: {
         en: "{pn} [anyMessage] OR\nteach [YourMessage] - [Reply1], [Reply2], [Reply3]... OR\nteach [react] [YourMessage] - [react1], [react2], [react3]... OR\nremove [YourMessage] OR\nrm [YourMessage] - [indexNumber] OR\nmsg [YourMessage] OR\nlist OR \nall OR\nedit [YourMessage] - [NeeMessage]"
@@ -173,7 +173,7 @@ module.exports.onChat = async ({
                 "Owalaikumus salam 💗🫶🏻",
                 "Owalaikumus salam jaan 💕",
                 "Owalaikumus salam kemon achis? 😘",
-                "Assalamualaikum 💖"
+                "Owalaikumus salam 😌💗"
             ];
             return api.sendMessage(replies[Math.floor(Math.random() * replies.length)], event.threadID, event.messageID);
         }
@@ -326,7 +326,7 @@ module.exports.onChat = async ({
         }
 
         // MORE WESTERN GALI
-        if (body.includes("bitch") || body.includes("ass") || body.includes("shit") || body.includes("damn") || body.includes("bastard") || body.includes("motherfucker")) {
+        if (body.includes("bitch") || body.includes("dhon") || body.includes("shit") || body.includes("dudh") || body.includes("bastard") || body.includes("motherfucker")) {
             const westernGaliReplies = [
                 "Oho! English gali! 😏",
                 "Bitch bolle ami meow meow kori 😺",
@@ -340,7 +340,7 @@ module.exports.onChat = async ({
         }
 
         // SLOT 1
-        if (body === "ghuma" || body === "ghum" || body.includes("ghuma")) {
+        if (body === "Ghuma" || body === "Ghumma" || body.includes("ghuma")) {
         	const replies = ["Tui Ghuma Age! 😮‍💨","Nope! 🥱","Ghumabo na Tor ki!😒","Ghum dhore na go 😞💔","Ghum nai Cokhe 😩💔","Aso Eksatge Ghumai 💋🫦"];
         return api.sendMessage(replies[Math.floor(Math.random() * replies.length)], event.threadID, event.messageID);
         }
@@ -737,7 +737,7 @@ module.exports.onChat = async ({
             body.startsWith("Bot")) {
             
             const arr = body.replace(/^\S+\s*/, "");
-            const randomReplies = ["😚", "Hae Shona 👀 Bolo, Tor ki khaya ar kono kaj nai?🥲", "Bolo jaan ki korte pari tmr jonno", "💋", "Hae jann 🥺💋!", "Bolo bby 👀", "Ki hoiche?😒", "Eto Daiko na go 😞", "Ere Keo Thama 🙏", "Wha Happen?🐸", "Uff!!! Dustu 🌚💋 ", "Eto Sundor Kore Dakle To Moreii jaboo!!😩", "Tuii Bot!😒🔪 Ami pro.😁", " Ay 1v1 Kori!🫦", "Eije Jann Aya Porchi 🫣", "Tumi Eto Sundor Kennnoo?😭🎀", "🫦", "Ektu Busy Achi Jann 🥺 1 Minute Pore Knock Deii?👀", "Ayy Hayy Pokie je 👀🎀", "Ghurte Niye Jaba Ettuu?🥺", "Age Ekta Gan Sunao! Nahole Kotha Bolbo na! 🥺😩", "Tumar profile + Tumi Masha Allah 😩🫶🏻💗", "Tomar Preme Pore Gelam 🫣 Ekhon Amay Uthabe ke?🥺", "🌚👍🏻", "Assalamualaikum 💗🫶🏻", "Ki Khobor Tomar?👀", "Din Kal Kemon Jayy?😗", "Jahh Dustu. 🫣💗", "Eije Eikhane 😗", "Bolen 😌", "Tmr Preme Habudubu Khacchi Baccaoo Amay 😭", "i lab u 💋", "Jiii 😌", "Rifat Sir! Ekhoni Single Ache.👀! Meye hoile gf Hoye jao. Ar chele hoile gf khuje daoo 🐸🫶🏻 ", "Sunlam Tmr Naki Biya 🌚 Daowat to Dila na?😞", "Tomar Jonne Buk Vora Valobasha 🤌🏻💗", "Valobaste Sikho Prio.😗🫶🏻", "Kya Hua?🫣", "Ekta Thappor deii?🫣😁", "Line Marte Ascho Abar?😒", "Tumi Naki Luccami Koro?", "Aso Kori 🫣! Mane Golpo", "Bol. 🌚", "Ar Kotobar Dakba Suntechi Tooo 😐", "ভালোবাসা আর না। কষ্ট আমি পাইছি তুমি না! 🥰🙏💔", "ভালোবাসা লাগলে রিফাত এর ইনবক্সে যা!😾🔪", "যার জামাই নাই তার জন্য রিফাত আছে! 😗 ", "Ei Je Sundori Ki Hoiche bolo. 🙈💖", "আহা আবার কি হইলো!😑", "Bolo Etkkhon Tomr Opekkhay Chilam.🥹", "Jann Dakte Kosto Hoyy?😾", "Tumi Amar Shuna Pakhii 🫣💖", "Dhong!😒", "Amay Dako Naki?🙂", "Tomar Preme Ondho Hoye Gechi. 💔🙏", "oi na please 💔🙏", "🙈", "🫶🏻💖", "🐸", "🤌🏻💗", "🫦💋", "😩💗"];
+            const randomReplies = ["😚", "Hae Shona 👀 Bolo, Tor ki khaya ar kono kaj nai?🥲", "Bolo jaan ki korte pari tmr jonno", "💋", "Hae jann 🥺💋!", "Bolo bby 👀", "Ki hoiche?😒", "Eto Daiko na go 😞", "Ere Keo Thama 🙏", "Wha Happen?🐸", "Uff!!! Dustu 🌚💋 ", "Eto Sundor Kore Dakle To Moreii jaboo!!😩", "Tuii Bot!😒🔪 Ami pro.😁", " Ay 1v1 Kori!🫦", "Eije Jann Aya Porchi 🫣", "Tumi Eto Sundor Kennnoo?😭🎀", "🫦", "Ektu Busy Achi Jann 🥺 1 Minute Pore Knock Deii?👀", "Ayy Hayy Pokie je 👀🎀", "Ghurte Niye Jaba Ettuu?🥺", "Age Ekta Gan Sunao! Nahole Kotha Bolbo na! 🥺😩", "Tumar profile + Tumi Masha Allah 😩🫶🏻💗", "Tomar Preme Pore Gelam 🫣 Ekhon Amay Uthabe ke?🥺", "🌚👍🏻", "Assalamualaikum 💗🫶🏻", "Ki Khobor Tomar?👀", "Din Kal Kemon Jayy?😗", "Jahh Dustu. 🫣💗", "Eije Eikhane 😗", "Bolen 😌", "Tmr Preme Habudubu Khacchi Baccaoo Amay 😭", "i lab u 💋", "Jiii 😌", "Rifat Sir! Ekhoni Single Ache.👀! Meye hoile gf Hoye jao. Ar chele hoile gf khuje daoo 🐸🫶🏻 ", "Sunlam Tmr Naki Biya 🌚 Daowat to Dila na?😞", "Tomar Jonne Buk Vora Valobasha 🤌🏻💗", "Valobaste Sikho Prio.😗🫶🏻", "Kya Hua?🫣", "Ekta Thappor deii?🫣😁", "Line Marte Ascho Abar?😒", "Tumi Naki Luccami Koro?", "Aso Kori 🫣! Mane Golpo", "Bol. 🌚", "Ar Kotobar Dakba Suntechi Tooo 😐", "ভালোবাসা আর না। কষ্ট আমি পাইছি তুমি না! 🥰🙏💔", "ভালোবাসা লাগলে রিফাত এর ইনবক্সে যা!😾🔪", "যার জামাই নাই তার জন্য রিফাত আছে! 😗 ", "Ei Je Sundori Ki Hoiche bolo. 🙈💖", "আহা আবার কি হইলো!😑", "Bolo Etkkhon Tomr Opekkhay Chilam.🥹", "Jann Dakte Kosto Hoyy?😾", "Tumi Amar Shuna Pakhii 🫣💖", "Dhong!😒", "Amay Dako Naki?🙂", "Tomar Preme Ondho Hoye Gechi. 💔🙏", "oi na please 💔🙏", "", "", "", "", "", ""];
             
             if (!arr) {
                 await api.sendMessage(randomReplies[Math.floor(Math.random() * randomReplies.length)], event.threadID, (error, info) => {
